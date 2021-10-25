@@ -33,7 +33,7 @@ _**Table of Contents**_
 
 ### Why OTN?
 
-This app aims to provide a platform for travelers who are willing to travel to the 'Taman Sutera Utama' area. Through this application, even in offline or low signal areas, travelers can obtain route, walking distance, duration of walking and navigate them to their destination according to the provided instructions. In addition, this app provides an extra feature, the recommendation feature, which will recommend some popular restaurants, cafes, clinics, pharmacies, grocery stores, or entertainment spots. The recommended places will be marked on the map, when the user clicks on the red marker, information about the place will be displayed and connect to Google map for online navigation.
+This app aims to provide a platform for travelers who are willing to travel to the 'Taman Sutera Utama' area. Through this app, even in offline or low signal areas, travelers can obtain route, walking distance, duration of walking and navigate them to their destination according to the provided instructions. In addition, this app provides an extra feature, the recommendation feature, which will recommend some popular restaurants, cafes, clinics, pharmacies, grocery stores, or entertainment spots. The recommended places will be marked on the map, when the user clicks on the red marker, information about the place will be displayed and connect to Google map for online navigation.
 
 ---
 
