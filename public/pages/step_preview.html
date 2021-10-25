@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OTN APP - Step Preview</title>
+    <link rel="shortcut icon" href="/public/img/logo.png" />
+
+    <!-- materialize icons, css & js -->
+    <link type="text/css" href="/public/css/materialize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" href="/public/css/styles.css" rel="stylesheet">
+    <script type="text/javascript" src="/public/js/materialize.min.js"></script>
+    <script src="/public/js/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="/public/css/sweetalert2.min.css">
+    <link rel="manifest" href="/public/manifest.json">
+
+    <!-- ios support -->
+    <link rel="apple-touch-icon" href="/public/img/icons/icon-96x96.png">
+    <meta name="apple-mobile-web-app-status-bar" content="#FFE1C4">
+    <meta name="theme-color" content="#FFE1C4">
+</head>
+
+<body class="grey lighten-4">
+
+    <nav class="z-depth-0">
+        <div class="nav-wrapper container">
+            <a href="#"><span>Step Preview</span></a>
+            <a href="" id='back'>
+                <span class="left grey-text text-darken-1">
+                    <i class="material-icons sidenav-trigger">arrow_back</i>
+                </span>
+            </a>
+        </div>
+    </nav>
+
+    <div class="container1">
+        <img id="image1" src="">
+        <a href="" id="btn3">Start Navigation</a>
+    </div>
+
+    <script>
+        var value = window.location.href.split('?')[1];
+        document.getElementById("back").href = "/public/pages/route_preview.html?" + value;
+        document.getElementById("image1").src = "/public/img/route/" + value + "/step_preview.jpeg";
+        document.getElementById("btn3").href = "/public/pages/step.html?" + value;
+    </script>
+    <script src="/public/js/app.js"></script>
+</body>
+
+</html>
