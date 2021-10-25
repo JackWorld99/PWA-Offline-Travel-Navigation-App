@@ -20,6 +20,7 @@ _**Table of Contents**_
   - [Route Preview](#Route-Preview)
   - [Step Preview](#Step-Preview)
   - [Offline Navigation](#Offline-Navigation)
+- [Google Map](#Google-Map)
 - [Limitations](#Limitations)
 
 ---
